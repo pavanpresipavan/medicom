@@ -1,0 +1,87 @@
+body {
+    font-family: corbel;
+    background-image: url(/img/log.jpg);
+    background-size: cover;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'] {
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    color: #333;
+    height: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+div .login,.bs {
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #30336b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 460px;
+}
+
+div .base {
+    background-color: #30336b;
+}
+
+span {
+    color: #30336b;
+}
+
+input[type='submit'] {
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px 25px 8px;
+    color: #fff;
+    background-color: #49db1d;
+    text-shadow: rgba(0, 0, 0, 0.24) 0 1px 0;
+    font-size: 16px;
+    box-shadow: #49db1d 0 2px 0 0 inset, #fff 0 1px 0 0;
+    border: 1px solid #49db1d;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #30336b;
+    text-align: left;
+}
+
+h3 {
+    font-size: 34px;
+    color: #30336b;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #dff9fb;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #535c68;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
